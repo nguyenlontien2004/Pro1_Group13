@@ -1,0 +1,162 @@
+/* maindanhmcu */
+.tile_dm {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.dm_sp {
+    display: flex;
+    gap: 30px;
+}
+
+.rol_loc {
+    margin-bottom: 5px;
+}
+
+.dm_sp .boxlef {
+    width: 30%;
+}
+
+.dm_sp .boxrighr {
+    width: 70%;
+}
+
+.rol_loc_nut {
+    display: flex;
+    gap: 20px;
+}
+
+.nut_loc_sz,
+.nut_loc_pri,
+.nut_locth {
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.boxlef .title {
+    margin-bottom: 20px;
+}
+
+.nut_loc_pri .pri_dm {
+    padding: 10px 15px;
+    background: #FFF;
+    border: 1px solid rgba(0, 0, 0, .09);
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    margin: 8px 8px 0px 15px;
+    font-size: 15px;
+}
+
+.nut_locth .thieu_nut {
+    padding: 10px 15px;
+    background: #FFF;
+    border: 1px solid rgba(0, 0, 0, .09);
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    margin: 8px 8px 0px 15px;
+    font-size: 15px;
+}
+
+.nut_loc_sz .size {
+    padding: 5px 10px;
+    background: #FFF;
+    border: 1px solid rgba(0, 0, 0, .09);
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    margin: 8px 8px 0px 15px;
+}
+
+.kq_loc {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    margin: 10px 0px 20px 40px;
+}
+
+.kq_loc span {
+    color: #ff0019;
+}
+
+.nut_loc:hover {
+    background-color: transparent;
+    color: #212529;
+    border: 1px solid #212529;
+}
+
+.nut_loc {
+    height: 40px;
+    width: 100%;
+    padding: 12px 24px;
+    margin-bottom: 1rem;
+    background-color: #221f20;
+    color: #f7f8f9;
+    border-radius: 16px 0px;
+    border: 1px solid transparent;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.loc_sp {
+    margin: 10px 30px;
+}
+
+.dm_sp .box_tile {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin: 0 auto;
+}
+
+.itemss {
+    border: 1px solid #EEEE;
+    border-radius: 5px;
+    text-align: center;
+    height: 400px;
+    /* position: relative;
+    overflow: hidden; */
+}
+
+.itemss img {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px
+}
+
+.itemss .nut {
+    display: flex;
+    justify-content: center;
+}
+
+/* enddm */
+
+/* Lócp */
+.size {
+    padding: 10px 10px;
+    background: #FFF;
+    border: 1px solid rgba(0, 0, 0, .09);
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    margin: 8px 8px 0px 0px;
+    cursor: pointer;
+}
+
+/* Style the active class, and buttons on mouse-over */
+.active,
+.size:hover {
+    background-color: #666;
+    color: rgb(255, 0, 0);
+}
+
+/* Endloc */
